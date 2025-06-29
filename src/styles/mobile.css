@@ -1,0 +1,28 @@
+/* Styles pour les appareils mobiles */
+@media (max-width: 650px) {
+  /* Réduire les marges et paddings */
+  .mobile-pense-bete {
+    font-size: 0.9rem;
+  }
+  
+  /* Ajuster les boutons pour qu'ils soient plus faciles à toucher */
+  .mobile-pense-bete button {
+    padding: 0.5rem;
+    min-height: 40px;
+    min-width: 40px;
+  }
+  
+  /* Assurer que le texte ne se chevauche pas */
+  .mobile-pense-bete h3,
+  .mobile-pense-bete p,
+  .mobile-pense-bete label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Ajuster la taille des icônes */
+  .mobile-pense-bete svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
