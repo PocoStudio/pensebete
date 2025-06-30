@@ -1,7 +1,8 @@
 import type { List, ListWithAccessCode, AccessCodeVerification, AccessCodeVerificationWithUser, AuthToken, PenseBete } from '../types';
 import { getToken, removeToken } from './authService';
 
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'https://localhost:5000/api';
+const API_URL = 'https://pensebete-api.capiomont.fr/api';
 
 
 const getAuthHeaders = (): HeadersInit => {
