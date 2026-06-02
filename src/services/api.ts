@@ -2,7 +2,7 @@ import type { List, ListWithAccessCode, AccessCodeVerification, AccessCodeVerifi
 import { getToken, removeToken } from './authService';
 
 // const API_URL = 'https://localhost:5000/api';
-const API_URL = 'https://pensebete-api.capiomont.fr/api';
+const API_URL = 'https://note.api.capiomont.fr/api';
 
 
 const getAuthHeaders = (): HeadersInit => {
