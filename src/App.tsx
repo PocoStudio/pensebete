@@ -10,7 +10,7 @@ function StandardLayout({ children }: { children: React.ReactNode }) {
     <div className="fixed inset-0 bg-white flex flex-col">
       <header className="flex-shrink-0 bg-white text-gray-800 p-4 shadow-sm border-b border-gray-200">
         <div className="w-full">
-          <h1 className="text-2xl font-bold">Mes Pense-bêtes</h1>
+          <h1 className="text-2xl font-bold">Mes Notes</h1>
         </div>
       </header>
       
@@ -20,7 +20,7 @@ function StandardLayout({ children }: { children: React.ReactNode }) {
       
       <footer className="flex-shrink-0 bg-white text-gray-600 p-4 border-t border-gray-200">
         <div className="w-full text-center">
-          <p>&copy; 2025 Mes Pense-bêtes</p>
+          <p>&copy; 2026 Mes Pense-bêtes</p>
         </div>
       </footer>
     </div>
