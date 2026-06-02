@@ -20,7 +20,7 @@ function StandardLayout({ children }: { children: React.ReactNode }) {
       
       <footer className="flex-shrink-0 bg-white text-gray-600 p-4 border-t border-gray-200">
         <div className="w-full text-center">
-          <p>&copy; 2026 Mes Pense-bêtes</p>
+          <p>&copy; {new Date().getFullYear()} Mes Pense-bêtes</p>
         </div>
       </footer>
     </div>
